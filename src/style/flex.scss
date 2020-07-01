@@ -75,6 +75,10 @@
     flex-wrap: wrap;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 @for $i from 1 through 10 {
     .flex-#{$i} {
         flex: $i;
